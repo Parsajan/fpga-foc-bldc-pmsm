@@ -6,9 +6,9 @@ VHDL implementation of Field-Oriented Control (FOC) on FPGA (Basys3 / Artix-7) �
 
 This project was built and documented in public, as a series tracking real progress — including what broke along the way.
 
-- [x] Theory & planned architecture — [Part 1: Architecture](docs/part1-architecture.md)
-- [x] Clarke transform + CORDIC — [Part 2: Clarke + CORDIC](docs/part2-clarke-cordic.md)
-- [x] Park, PI controller, SVPWM, inverse Park, full-loop integration — [Part 3: Completing the Chain](docs/part3-completing-the-chain.md)
+- [x] Theory & planned architecture — [Part 1: Architecture]([docs/part1-architecture.md](https://github.com/Parsajan/fpga-foc-bldc-pmsm/blob/main/part1-architecture.md))
+- [x] Clarke transform + CORDIC — [Part 2: Clarke + CORDIC]([docs/part2-clarke-cordic.md](https://github.com/Parsajan/fpga-foc-bldc-pmsm/blob/main/part2-clarke-cordic.md))
+- [x] Park, PI controller, SVPWM, inverse Park, full-loop integration — [Part 3: Completing the Chain]([docs/part3-completing-the-chain.md](https://github.com/Parsajan/fpga-foc-bldc-pmsm/blob/main/part3-completing-the-chain.md))
 - [x] Clarke transform (11/11 tests)
 - [x] CORDIC sin/cos (20/20 tests, 1 bug found+fixed)
 - [x] Park transform (11/11 unit + 5/5 chained)
