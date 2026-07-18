@@ -53,4 +53,4 @@ Tallied across the whole series: 117 individual test checks, all passing, across
 
 What this proves: the RTL is functionally correct for one control step, in simulation, against hand-derived references. What it doesn't prove yet: dynamic behavior against an actual motor (needs a plant model, not just a snapshot check), ModelSim agreement (everything here ran on GHDL), and whether it closes timing on real Artix-7 silicon in Vivado. Those are a different kind of work — synthesis constraints and a plant model, not more RTL — and a reasonable place to leave this series and pick up as a separate post if that work happens.
 
-Code for all six modules and every testbench is in the [https://github.com/Parsajan/fpga-foc-bldc-pmsm](../README.md).
+Code for all six modules and every testbench is in the [[https://github.com/Parsajan/fpga-foc-bldc-pmsm](https://github.com/Parsajan/fpga-foc-bldc-pmsm)](../README.md).
